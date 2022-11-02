@@ -12,6 +12,7 @@ function App() {
 
       <Inicio />
 
+
       <Carousel />
 
       <JanelaModal />

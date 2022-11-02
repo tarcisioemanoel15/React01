@@ -6,21 +6,24 @@ export default function JanelaModal() {
 
   const [isModalVisible, setModalVisible] = useState(false)
 
-  return(
+  return (
 
     <Div>
       <div className="App">
 
 
-    <button onClick={() => setModalVisible(true)}>
-      Open
-    </button>
-      
-      {isModalVisible ? <Modal1/> : null} 
+        <button onClick={() => setModalVisible(true)}>Open</button>
+
+        {isModalVisible ? (
+          <Modal1 onClose={() => { setModalVisible(false) }}>
+
+            <h1>Modal</h1>
+          </Modal1>
+        ) : null}
 
 
       </div>
-    
+
     </Div>
   );
 }

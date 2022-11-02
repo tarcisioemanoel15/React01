@@ -1,6 +1,6 @@
 import { Mmodal } from "./styled";
 
-function Modal1({ id = "modal", onClose = () => { }, children }) {
+function Modal({ id = "modal", onClose = () => { }, children }) {
 
   const handleOutsideClick = (e) => {
     if (e.target.id === id) onClose();
@@ -9,12 +9,10 @@ function Modal1({ id = "modal", onClose = () => { }, children }) {
   return (
     <Mmodal onClick={handleOutsideClick}>
       <div id={id} className="modal" onClick={handleOutsideClick}>
+
         <div className="container" >
-
-
           <button className='close' onClick={onClose}>X</button>
           <div className="content">{children}</div>
-
         </div>
 
       </div>
@@ -22,4 +20,4 @@ function Modal1({ id = "modal", onClose = () => { }, children }) {
   );
 }
 
-export default Modal1;
+export default Modal;
