@@ -1,8 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
-import Modal from './Modal';
 import { Carousell } from "./styled"
+import Modal from './Modal';
+
 function Carousel() {
+  
   const [data, setData] = useState(null);
+  const [modalImg, setModalImg] = useState(false);
+
+
+
   const carouusel = useRef();
   useEffect(() => {
     fetch('http://localhost:3000/static/images/01/tiaras.json')
@@ -36,20 +42,41 @@ function Carousel() {
                 </div>
               </div>
             );
+            
+            
+            
+            
+            
+            
           })}
+            
+            
+            
+
+
+
         </div>
         <div className="buttons">
           <button onClick={handleDireitaClick}> <img src="./static/images/seta.png" alt="direita" /> </button>
           <button onClick={handleEsquerdaaClick}> <img src="./static/images/seta.png" alt="esquerda" /> </button>
         </div>
+          <button onClick={()=>setModalImg(true)}>Open</button>
       </div>
 
 
 
-      <Modal />
 
-    </Carousell>
+          {modalImg ? (
+            <Modal onClose={()=>{setModalImg(false)}}>
+            <img src="" alt="" />
+            </Modal>
+          ) : null}
 
+
+            
+
+
+          </Carousell>
   );
 }
 export default Carousel;
