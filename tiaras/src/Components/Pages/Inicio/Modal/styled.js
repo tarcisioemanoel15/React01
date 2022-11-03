@@ -18,15 +18,30 @@ position: fixed;
 }
 
 .container{
-  background-color: #fff;
-  width: 60%;
-  height: 60%;
+  background-color: #4e4949db;
+  width: 75%;
+  height: 50%;
   color: black;
   border-radius: 20px;
+
+  display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
+div.content{
+display: flex;
+justify-content: center;
+}
+
+.container .content img{
+  margin-top: -35px;
+  width: 80%;
+  
+}
 .close{
   background-color: transparent;
+  color: wheat;
   border: none;
   outline: none;
   width: 30px;
@@ -40,4 +55,9 @@ position: fixed;
 
 }
 
+@media screen and (max-width: 560px) {
+  .container .content img{
+  width: 100%;
+  } 
+}
 `;
