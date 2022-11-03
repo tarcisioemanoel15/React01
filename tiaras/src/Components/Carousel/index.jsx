@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import Modal from './Modal';
 import { Carousell } from "./styled"
 function Carousel() {
   const [data, setData] = useState(null);
@@ -42,7 +43,13 @@ function Carousel() {
           <button onClick={handleEsquerdaaClick}> <img src="./static/images/seta.png" alt="esquerda" /> </button>
         </div>
       </div>
+
+
+
+      <Modal />
+
     </Carousell>
+
   );
 }
 export default Carousel;
