@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const Homee = styled.header`
+export const Menue = styled.header`
 
 
 @font-face {

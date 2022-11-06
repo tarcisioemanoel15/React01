@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const Carousell = styled.div`
 
-
 @font-face {
   font-family: Dancingenne;
   src: url('./static/fonts/Dancing/static/DancingScript-Bold.ttf');
 }
-
 
 font-family: Dancingenne;
 
@@ -91,4 +89,6 @@ font-family: Dancingenne;
 .buttons button:first-child {
   transform: rotate(180deg);
 }
+
+
   `; 

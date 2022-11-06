@@ -4,21 +4,24 @@
     "name": "Tiara0",
     "price": 30.00,
     "oldPrice": 40.00,
-    "image": "./static/images/01/px200/0.jpg"
+    "image": "./static/images/01/px200/0.jpg",
+    "imageM": "./static/images/01/px200/0.jpg"
   },
   {
     "id": "1",
     "name": "Tiara1",
     "price": 30.00,
     "oldPrice": 40.00,
-    "image": "./static/images/01/px200/1.jpg"
+    "image": "./static/images/01/px200/1.jpg",
+    "imageM": "./static/images/01/px200/1.jpg"
   },
   {
     "id": "2",
     "name": "Tiara2",
     "price": 30.00,
     "oldPrice": 40.00,
-    "image": "./static/images/01/px200/2.jpg"
+    "image": "./static/images/01/px200/2.jpg",
+    "imageM": "./static/images/01/px200/2.jpg"
   },
   {
     "id": "3",
