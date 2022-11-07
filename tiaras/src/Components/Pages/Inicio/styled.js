@@ -23,8 +23,26 @@ justify-content: center;
 width: 100%;
 /* height: 95vh; */
 
+.title{
+    /* background: #ff41ff73; */
+
+    position: absolute;
+  width: 250px;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    left: 31%;
+    top: 59px;
+    align-items: center;
+    
+  }
+  .title h1{
+  color: #dd9177;
+  font-size: 45px;
+}
+
 article{
-  background-color: #ff41ff73;
+  /* background-color: #ff41ff73; */
   width: 300px;
   /* height: 85%; */
   margin-top: 50px;

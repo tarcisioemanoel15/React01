@@ -11,7 +11,7 @@ import { useState } from 'react';
 import Modal from "./Modal";
 
 export default function Inicio() {
-  
+
   const [isModalVisible, setModalVisible] = useState(false);
   const [isModalVisible1, setModalVisible1] = useState(false);
   const [isModalVisible2, setModalVisible2] = useState(false);
@@ -19,6 +19,11 @@ export default function Inicio() {
   return (
     <div className="inicio" >
       <FundoImg>
+
+        <div className="title">
+          <h1>Andressa Bispo</h1>
+        </div>
+
         <article >
 
           <div onClick={() => setModalVisible(true)}>
