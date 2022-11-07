@@ -23,7 +23,7 @@ export default function Menu() {
 
 
           <Link to={'/'}>
-            <div className="icom">
+            <div className="icon">
               <img src="./static/images/Icon/favicon.ico" alt="" />
             </div>
           </Link>
