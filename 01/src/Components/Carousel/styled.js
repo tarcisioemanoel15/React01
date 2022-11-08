@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const Carousell = styled.div`
 
-
 @font-face {
   font-family: Dancingenne;
-  src: url('./static/fonts/Dancing/static/DancingScript-Bold.ttf');
+  src: url('./static/fonts/Parisienne/Parisienne-Regular.ttf');
 }
-
 
 font-family: Dancingenne;
 
@@ -18,7 +16,8 @@ font-family: Dancingenne;
 
 .caixa h1 {
   font-size: 50px;
-  color: red;
+  color: #ff41ff73;
+  
 }
 
 .containerr {
@@ -91,4 +90,6 @@ font-family: Dancingenne;
 .buttons button:first-child {
   transform: rotate(180deg);
 }
+
+
   `; 
