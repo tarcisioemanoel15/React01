@@ -23,8 +23,8 @@ export default function Menu() {
 
 
           <Link to={'/'}>
-            <div className="icon">
-              <img src="./static/images/Icon/favicon.ico" alt="" />
+            <div className="iconLogo">
+              <img src="./static/images/Icon/apple-touch-icon.png" alt="Logo" />
             </div>
           </Link>
 

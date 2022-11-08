@@ -20,7 +20,7 @@ a {
 
 header {
   font-family: parisienne;
-  background-color:#f513e838;
+  background-color:#e794e2;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -31,15 +31,28 @@ header {
   z-index: 1;
 }
 
-header h3 {
-  font-family: parisienne;
-
+header .iconLogo {
   margin-left: 15px;
   color: white;
 }
 
+header .iconLogo img{
+  width: 30%;
+    margin-top: 16px;
+    transition: 2s;
+  }
+
+  header .iconLogo img:hover{
+    width: 50%;
+    margin-top: 50px;
+    transform: rotate(360deg);
+  }
+
+
+
 nav ul {
   display: flex;
+  margin-top: 15px;
 }
 
 .hamburguer {

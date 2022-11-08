@@ -24,21 +24,32 @@ width: 100%;
 /* height: 95vh; */
 
 .title{
-    /* background: #ff41ff73; */
 
     position: absolute;
-  width: 250px;
+    width: 250px;
     text-align: center;
     display: flex;
     justify-items: center;
-    left: 31%;
-    top: 59px;
+    left: 24%;
+    top: 217px;
     align-items: center;
     
   }
   .title h1{
   color: #dd9177;
   font-size: 45px;
+}
+
+@media screen and (max-width:930px){
+  .title{
+    left: 33%;
+    top: 70px;
+  }
+  .title h1{
+  font-size: 30px;
+
+  }
+  
 }
 
 article{
@@ -91,6 +102,17 @@ article div span{
     bottom: 0;
     gap:45px
     }
+
+    .title{
+      width:100px ;
+      left: 2%;
+      top: 100px;
+    }
+    .title h1{
+    font-size: 30px;
+  
+    }
+  
  }
  
  @media screen and (max-width: 590px){
@@ -103,6 +125,9 @@ article div span{
     }
     article div img{
       width: 90px;
+    }
+    .title{
+      display: none;
     }
   }
 `;
